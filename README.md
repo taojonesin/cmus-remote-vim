@@ -3,6 +3,8 @@ cmus-remote-vim
 
 This is a fork of professorsloth's cmus-remote that I went to install but it wouldn't work with
 Pathogen. So I edited it a bit to make it compatible. 
+Just clone into ~/.vim/bundle and add the shortcuts at the bottom to your .vimrc and you're good
+to go!
 All credit for the script goes to professorsloth. I only made minor edits.
 ---------------
 
@@ -25,17 +27,17 @@ How to use
 Functions provided by this plugin
 ---------------------------------
 
- * cmus:pause()
+ * Pause()
    * Pauses/resumes song.
- * cmus:stop()
+ * Stop()
    * Commands **cmus** to stop playing music.
- * cmus:play()
+ * Play()
    * Command **cmus** to start playing music.
- * cmus:next()
+ * Next()
    * Jump to next track in playlist.
- * cmus:previous()
+ * Previous()
    * Jump to previous track in playlist.
- * cmus:current()
+ * Current()
    * Echo artist, album and track title.
 
 
@@ -45,7 +47,7 @@ Example bindings for your .vimrc
 I have personally bound `cmus:next`, `cmus:previous` and `cmus:pause` in my `.vimrc`.
 
     " A few common cmus commands
-    nnoremap <leader>n :call cmus:next()<cr>
-    nnoremap <leader>p :call cmus:previous()<cr>
-    nnoremap <leader><Space> :call cmus:pause()<cr>
+    nnoremap <leader>n :call Next()<cr>
+    nnoremap <leader>p :call Previous()<cr>
+    nnoremap <leader><Space> :call Pause()<cr>
 
