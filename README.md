@@ -1,6 +1,11 @@
 cmus-remote-vim
 ===============
 
+This is a fork of professorsloth's cmus-remote that I went to install but it wouldn't work with
+Pathogen. So I edited it a bit to make it compatible. 
+All credit for the script goes to professorsloth. I only made minor edits.
+---------------
+
 Why I made this
 ---------------
 
